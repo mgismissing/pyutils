@@ -1,5 +1,14 @@
 # PyUtils
 A big library of utilities to make your python script lighter and easier to read.
+## Installing PyUtils
+### Method 1: using git
+```bash
+git clone https://github.com/mgismissing/pyutils
+```
+### Method 2: using the releases
+Go in the [Releases](https://github.com/mgismissing/pyutils/releases) and download the latest version.  
+> __Important__  
+> This project is still in alpha.
 ## Utilities
 In this section is listed every utility that you can find at the moment ordered in alphabetical order.
 ### Utility: status
