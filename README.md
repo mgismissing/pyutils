@@ -54,5 +54,5 @@ displays a fatal error text, normally used for something that went terribly wron
 #### Information
 Created 07/08/2023 by [mgismissing](https://github.com/mgismissing)  
 
-> __Info__  
+> __Note__  
 > This utility has been officially tested.
