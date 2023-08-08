@@ -2,7 +2,7 @@
 A big library of utilities to make your python script lighter and easier to read.
 ## Utilities
 In this section is listed every utility that you can find at the moment ordered in alphabetical order.
-### status
+### Utility: status
 #### Requirements
 - colorama | `pip install colorama`
 #### Description
@@ -51,8 +51,10 @@ displays a fatal error text, normally used for something that went terribly wron
 `color`: whether or not should the text be red  
 `div`: the text between the code number and the description  
 `end`: the text after the description  
-#### Information
-Created 07/08/2023 by [mgismissing](https://github.com/mgismissing)  
-
+> __Warning__  
+> This utility automatically runs code when imported in a project. [[See the code]()
 > __Note__  
 > This utility has been officially tested.
+#### Information
+Created 07/08/2023 by [mgismissing](https://github.com/mgismissing)  
+Version 1.0
