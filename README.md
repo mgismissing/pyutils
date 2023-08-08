@@ -8,10 +8,51 @@ In this section is listed every utility that you can find at the moment ordered 
 #### Description
 Make debugging easier with error logging. This logger has 4 highly-customizable statuses: info, warning, error and fatal.
 #### Functions
-- `info(code: int = 0, desc: str = "No description", color: bool = True, div: str = " ", end: str = "\n")`: displays an info text.  
-  `code`: the code number  
-  `desc`: the text shown after the code number  
-  `color`: whether or not should the text be cyan  
-  `div`: the text between the code number and the description  
-  `end`: the text after the description  
-Other functions are present but are not shown here (001 not added yet)  
+```py
+info(code: int = 0, desc: str = "No description", color: bool = True, div: str = " ", end: str = "\n")
+```
+displays an info text, normally used for logging information.  
+
+`code`: the code number  
+`desc`: the text shown after the code number  
+`color`: whether or not should the text be cyan  
+`div`: the text between the code number and the description  
+`end`: the text after the description 
+
+```py
+warn(code: int = 0, desc: str = "No description", color: bool = True, div: str = " ", end: str = "\n")
+```
+displays a warning text, normally used for checks in the code or to log something that went wrong.  
+
+`code`: the code number  
+`desc`: the text shown after the code number  
+`color`: whether or not should the text be yellow  
+`div`: the text between the code number and the description  
+`end`: the text after the description 
+
+```py
+err(code: int = 0, desc: str = "No description", color: bool = True, div: str = " ", end: str = "\n")
+```
+displays an error text, normally used for an exception in parts of the code with `try`/`except`.  
+
+`code`: the code number  
+`desc`: the text shown after the code number  
+`color`: whether or not should the text be red  
+`div`: the text between the code number and the description  
+`end`: the text after the description  
+
+```py
+fatal(code: int = 0, desc: str = "No description", color: bool = True, div: str = " ", end: str = "\n")
+```
+displays a fatal error text, normally used for something that went terribly wrong in the code to the point that it cannot continue to work properly.  
+
+`code`: the code number  
+`desc`: the text shown after the code number  
+`color`: whether or not should the text be red  
+`div`: the text between the code number and the description  
+`end`: the text after the description  
+#### Information
+Created 07/08/2023 by [mgismissing](https://github.com/mgismissing)  
+
+__Warning__  
+This utility has not been officially tested yet.
