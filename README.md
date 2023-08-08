@@ -52,7 +52,7 @@ displays a fatal error text, normally used for something that went terribly wron
 `div`: the text between the code number and the description  
 `end`: the text after the description  
 > __Warning__  
-> This utility automatically runs code when imported in a project. [[See the code](mgismissing/pyutils/AUTOCODE.md#utility-status)]  
+> This utility automatically runs code when imported in a project. [[See the code](pyutils/AUTOCODE.md#utility-status)]  
 
 > __Note__  
 > This utility has been officially tested.
