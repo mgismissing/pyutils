@@ -53,6 +53,7 @@ displays a fatal error text, normally used for something that went terribly wron
 `end`: the text after the description  
 > __Warning__  
 > This utility automatically runs code when imported in a project. [[See the code](AUTOCODE.md#utility-status)]  
+
 > __Note__  
 > This utility has been officially tested.
 #### Information
