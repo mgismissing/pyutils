@@ -4,7 +4,7 @@ A big library of utilities to make your python script lighter and easier to read
 In this section is listed every utility that you can find at the moment ordered in alphabetical order.
 ### Utility: status
 #### Requirements
-- colorama | `pip install colorama`
+- colorama [`pip install colorama`]
 #### Description
 Make debugging easier with error logging. This logger has 4 highly-customizable statuses: info, warning, error and fatal.
 #### Functions
