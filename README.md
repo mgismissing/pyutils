@@ -15,8 +15,30 @@ In this section is listed every utility that you can find at the moment ordered 
 #### Requirements
 - colorama [`pip install colorama`]
 #### Description
-Make debugging easier with error logging. This logger has 4 highly-customizable statuses: info, warning, error and fatal.
+Make debugging easier by logging comments, variables, information, warnings, errors and fatal errors.
 #### Functions
+```py
+comment(code: int = 0, desc: str = "No description", color: bool = True, div: str = " ", end: str = "\n")
+```
+displays a comment text, normally used for checking the flow of the code.  
+
+`code`: the code number  
+`desc`: the text shown after the code number  
+`color`: whether or not should the text be grey  
+`div`: the text between the code number and the description  
+`end`: the text after the description 
+
+```py
+var(var = None, desc: str = "No description", color: bool = True, div: str = " ", end: str = "\n")
+```
+displays the content of a variable, normally used for checking a variable's value.  
+
+`var`: the variable  
+`desc`: the text shown after the variable  
+`color`: whether or not should the text be green  
+`div`: the text between the variable and the description  
+`end`: the text after the description 
+
 ```py
 info(code: int = 0, desc: str = "No description", color: bool = True, div: str = " ", end: str = "\n")
 ```

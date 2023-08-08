@@ -4,6 +4,12 @@ try:
 	colorama.init(autoreset=True)
 except ModuleNotFoundError:
 	sys.exit("ModuleNotFoundError | status.py --> colorama: Missing library. Try installing it with pip [pip install colorama].")
+def comment(code: int = 0, desc: str = "No description", color: bool = True, div: str = " ", end: str = "\n"):
+	"""Displays a comment text, normally used for checking the flow of the code."""
+	print(f"{colorama.Fore.LIGHTBLACK_EX * color}{code}{div}{desc}", end=end)
+def var(var = None, desc: str = "No description", color: bool = True, div: str = " ", end: str = "\n"):
+	"""Displays the content of a variable, normally used for checking a variable's value."""
+	print(f"{colorama.Fore.GREEN * color}{var}{div}{desc}", end=end)
 def info(code: int = 0, desc: str = "No description", color: bool = True, div: str = " ", end: str = "\n"):
 	"""Displays an info text, normally used for logging information."""
 	print(f"{colorama.Fore.CYAN * color}{code}{div}{desc}", end=end)
