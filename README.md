@@ -8,7 +8,7 @@ git clone https://github.com/mgismissing/pyutils
 ### Method 2: using the releases
 Go in the [Releases](https://github.com/mgismissing/pyutils/releases) and download the latest version.  
 > __Important__  
-> This project is still in alpha.
+> This project is still being tested and it is in the alpha version. More information about PyUtils versions [here](https://github.com/mgismissing/pyutils/blob/main/VERSIONS.md)
 ## Utilities
 In this section is listed every utility that you can find at the moment ordered in alphabetical order.
 ### Utility: git
