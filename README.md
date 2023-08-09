@@ -11,6 +11,22 @@ Go in the [Releases](https://github.com/mgismissing/pyutils/releases) and downlo
 > This project is still in alpha.
 ## Utilities
 In this section is listed every utility that you can find at the moment ordered in alphabetical order.
+### Utility: git
+#### Description
+Clone repositories using git and print the output on the console.
+#### Functions
+```py
+clone(url) -> int
+```
+clones a repository with the command `git clone` and prints the command's output on the console.
+> __Warning__  
+> This utility automatically runs code when imported in a project. [[See the code](https://github.com/mgismissing/pyutils/blob/main/AUTOCODE.md#utility-git)]  
+
+> __Warning__  
+> This utility has not been officially tested.
+#### Information
+Created 09/08/2023 by [mgismissing](https://github.com/mgismissing)  
+Version 1.0
 ### Utility: status
 #### Requirements
 - colorama [`pip install colorama`]
