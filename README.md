@@ -22,8 +22,8 @@ clones a repository with the command `git clone` and prints the command's output
 > __Warning__  
 > This utility automatically runs code when imported in a project. [[See the code](https://github.com/mgismissing/pyutils/blob/main/AUTOCODE.md#utility-git)]  
 
-> __Warning__  
-> This utility has not been officially tested.
+> __Note__  
+> This utility has been officially tested.
 #### Information
 Created 09/08/2023 by [mgismissing](https://github.com/mgismissing)  
 Version 1.0
